@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+strong{
+    color: #F24822;
+    font-style:oblique;
+}
+
+
+body{
+    
+    height: 100vh;
+    box-sizing: border-box ;
+    background-color: #F7B253;
+    color: aliceblue;
+    font-family:  "Share Tech", sans-serif;
+  
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    width: 70%;
+    height: 100%;
+    gap: 75px;
+}
+
+.recebeinfo{
+    display: flex;
+    background-color: #f248224d;
+    border-radius: 16px;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: #F24822;
+    width:100%;
+    padding: 15px;
+
+}
+
+.chama{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.acess{
+    font-size: 1.7rem;
+    height: 20px;
+}
+
+input{
+    color: rgb(48, 49, 49);
+    border: 3px solid #F24822;
+    background-color: #F7B253;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Share Tech", sans-serif;
+    font-size: 1rem;
+}
+
+.butoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: #F24822;
+    width: 150px;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #f1a740;
+}
+
+.esqueceu_senha{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.texto{
+
+    font-size: 1rem;
+    font-weight: 12px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.imagens{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+img{  
+    width: 70%;
+    height: 60%;
+    gap: 20px;
+}
+
+@media (max-width: 700px)  {
+    main{
+        flex-direction: column-reverse;
+        align-items: center ;
+        width: auto;
+    }
+}
